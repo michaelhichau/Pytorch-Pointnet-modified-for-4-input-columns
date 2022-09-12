@@ -33,16 +33,7 @@ python train_classification.py --model pointnet_cls --log_dir pointnet_cls --num
 
 ## e.g., pointnet2_ssg
 python train_classification.py --model pointnet2_cls_ssg --log_dir pointnet2_cls_ssg --num_point 244
-
-### Run
 ```
-## Check model in ./models 
-## e.g., pointnet2_ssg
-python train_semseg.py --model pointnet2_sem_seg --test_area 5 --log_dir pointnet2_sem_seg
-python test_semseg.py --log_dir pointnet2_sem_seg --test_area 5 --visual
-```
-Visualization results will save in `log/sem_seg/pointnet2_sem_seg/visual/` and you can visualize these .obj file by [MeshLab](http://www.meshlab.net/).
-
 
 
 ## Reference By
