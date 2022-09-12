@@ -7,7 +7,7 @@ This repo is modified version of [Pytorch Implementation of PointNet and PointNe
 Initial upload.
 
 ## Install
-The code for classification training has been modified and tested on Windows 10, CUDA10.1, PyTorch 1.6 and Python 3.7, (Anaconda Navigator 2.2.0).
+The code for classification training has been modified and tested on Windows 10, CUDA10.1 (requires NVIDIA GPU and Driver), PyTorch 1.6 and Python 3.7, (Anaconda Navigator 2.2.0).
 
 The original author yanx27 tested the remaining codes on Ubuntu 16.04, CUDA10.1, PyTorch 1.6 and Python 3.7:
 ```shell
