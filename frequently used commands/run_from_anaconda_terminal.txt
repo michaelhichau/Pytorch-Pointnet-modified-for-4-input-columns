@@ -1,0 +1,6 @@
+d:
+cd RP2\Pointnet_Pointnet2_pytorch-master\
+conda activate pnpp
+
+python train_classification.py --model pointnet2_cls_ssg --log_dir pointnet2_cls_ssg_normal --use_normals
+python train_classification.py --model pointnet_cls --log_dir pointnet_cls --epoch 2100 --num_point 244

@@ -1,0 +1,8 @@
+cd /mnt/d
+cd RP2/Pointnet_Pointnet2_pytorch-master/data/modelnet40_normal_resampled/
+
+cd HIGH_HIGH
+mmv \*_esp_surface.csv HIGH_HIGH_\#1.txt
+cd ..
+
+find /mnt/d/RP2/Pointnet_Pointnet2_pytorch-master/data/modelnet40_normal_resampled > filelist.txt    
