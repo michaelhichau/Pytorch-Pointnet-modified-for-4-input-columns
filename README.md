@@ -23,7 +23,7 @@ Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/mo
 
 ### Run
 You can run different modes with following codes. 
-*Note the smallest point cloud in our dataset consist of 244 points only.
+*Note that the smallest point cloud in our dataset consist of 244 points only.*
 ```shell
 ## e.g., pointnet_cls
 python train_classification.py --model pointnet_cls --log_dir pointnet_cls --num_point 244
