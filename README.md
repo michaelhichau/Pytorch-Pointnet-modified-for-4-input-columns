@@ -41,7 +41,7 @@ python train_classification.py --model pointnet2_cls_ssg --log_dir pointnet2_cls
 
 
 ## Citation
-If you find this repo useful in your research, please consider citing it and our other works:
+If you find this repo useful in your research, please consider citing the original Author's work(s):
 ```
 @article{Pytorch_Pointnet_Pointnet2,
       Author = {Xu Yan},
